@@ -1,0 +1,22 @@
+{
+    "name": "xooxx/serializer-eloquent",
+    "description": "Eloquent Driver for outputting valid API responses in JSON, JSON API and HAL+JSON API formats.",
+    "type": "library",
+    "require": {
+        "xooxx/serializer": "^1.0",
+        "illuminate/database": ">=4.2",
+        "illuminate/pagination": ">=4.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xooxx",
+            "email": "xooxx.dev@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "Xooxx\\Serializer\\Drivers\\Eloquent\\": "src/"
+      }
+    }
+}
